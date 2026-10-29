@@ -27,18 +27,7 @@
 
 ## 데이터 불러오기
 
-Google Colab 또는 Jupyter Notebook에서 아래 방법 중 하나를 사용합니다.
-
-### CSV 파일을 직접 올린 경우
-
-`day_missing.csv`를 노트북의 현재 작업 폴더에 업로드한 뒤 실행합니다.
-
-```python
-import pandas as pd
-
-df = pd.read_csv('day_missing.csv', parse_dates=['dteday'])
-df.head()
-```
+Google Colab 또는 Jupyter Notebook에서 아래 방법을 사용합니다.
 
 ### GitHub에서 직접 불러오는 경우
 
